@@ -8,8 +8,7 @@ namespace Ui {
 class MainWindow;
 }
 
-class MainWindow : public QMainWindow
-{
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
@@ -18,7 +17,7 @@ public:
 
 private slots:
     void handleLoadButtonClick();
-    //void handleSaveButtonClick();
+    void handleSaveButtonClick();
 
 private:
     Ui::MainWindow *ui;
